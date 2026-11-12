@@ -1,29 +1,29 @@
-// const idade = +prompt('digite sua idade!');
+const idade = +prompt('digite sua idade!');
 
-// if (idade >= 18) {
-//     console.log('Acesso liberado! divirta-se!');
-// }
+if (idade >= 18) {
+    console.log('Acesso liberado! divirta-se!');
+}
 
-// if (idade < 18) {
-//     console.log('Acesso negado');
-// }
+if (idade < 18) {
+    console.log('Acesso negado');
+}
 
-// // ex:2
-// const senhaCorreta = 'front123';
-// const senhaDigitada = prompt('digite a senha de acesso');
+// ex:2
+const senhaCorreta = 'front123';
+const senhaDigitada = prompt('digite a senha de acesso');
 
-// if (senhaDigitada === senhaCorreta){
-//     console.log ('Login efetuado com sucesso')
-// }
-// if (senhaDigitada !== senhaCorreta){
-//     console.log('Senha incorreta')
-// }
+if (senhaDigitada === senhaCorreta){
+    console.log ('Login efetuado com sucesso')
+}
+if (senhaDigitada !== senhaCorreta){
+    console.log('Senha incorreta')
+}
 // ex:3
-// let valorCompra = +prompt("Digite o valor da compra");
-// if (valorCompra > 100 ){
-//     valorCompra = valorCompra - 10
-// }
-// console.log ('total a pagar é:', + valorCompra);
+let valorCompra = +prompt("Digite o valor da compra");
+if (valorCompra > 100 ){
+    valorCompra = valorCompra - 10
+}
+console.log ('total a pagar é:', + valorCompra);
 // ex: 4
 
 let quantidade = +prompt ('quantidade de produtos comprados')
@@ -38,7 +38,7 @@ if (valorgasto >= 200){
 }
 console.log("total de pontos" + 100)
 
-// Ex:4
+// Ex:5
 let salario = +prompt('Salario base vendedor');
 let toralVendas = +prompt ("Total de vendas");
 let notaAvaliacao = +prompt ("nota de avaliação (de 0 a 10)")
@@ -48,7 +48,7 @@ let salarioFinal = salarioBase;
  let bonus = salarioBase + bonus;
  salarioFinal.log("salario final" + salarioFinal)
  
- //ex5
+ //ex6
  let valorPedido = +prompt ("valor do pedido")
  let distaciaKm = +prompt("distancia em KM:")
 
